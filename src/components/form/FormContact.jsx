@@ -27,14 +27,15 @@ const FormContact = () => {
         <h2>Me envie uma mensagem</h2>
         <br />
         <form onSubmit={handleSubmit}>
-          <input type="email" placeholder="E-mail" required />
+          <input name="Email" type="email" placeholder="E-mail" required />
           <ValidationError prefix="Email" field="email" errors={state.errors} />
 
           <textarea
             name="Message"
             placeholder="Digite seu texto aqui"
             id="message"
-          ></textarea>
+            
+          required></textarea>
           <ValidationError
             prefix="Message"
             field="message"
