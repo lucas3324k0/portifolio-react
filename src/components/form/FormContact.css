@@ -1,0 +1,39 @@
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input,
+#message {
+  width: 340px;
+  height: 40px;
+  outline: none;
+  overflow: hidden;
+  padding-left: 5px;
+  border: 1px solid rgb(85, 85, 85);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+#message {
+  padding-top: 5px;
+  height: 150px;
+}
+
+.btn-form {
+  width: 350px;
+  height: 40px;
+  background-color: rgb(0, 144, 240);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.btn-form:hover {
+  color: rgb(31, 31, 31);
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.3s;
+}

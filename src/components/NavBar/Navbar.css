@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header-container {
+  width: 100%;
+  min-height: 60px;
+  height: 10vh;
+  background-color: #222222;
+  border-bottom: 1px solid rgb(56, 56, 56);
+
+  display: flex;
+  align-items: center;
+}
+
+.header-container ul {
+  width: 30%;
+  height: 10vh;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.header-container .a-link {
+  color: rgb(255, 255, 255);
+  font-weight: 400;
+}
+
+.header-container .a-link:hover {
+  color: rgba(255, 255, 255, 0.562);
+  border-bottom: 1px solid rgb(179, 176, 176);
+  transition: all 0.3s ease;
+}
+
+
+/* Class menu hamburger */
+button {
+  display: none;
+}
+

@@ -1,0 +1,118 @@
+
+.home-container {
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+/*  HOME CONTEUDO */
+.home-conteudo {
+  margin: 3rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-conteudo h2,
+p {
+  margin: 1rem;
+}
+
+/* MUDANDO TAMANHO DA FONTE H1, P */
+h2 {
+  font-size: 2rem;
+  color: #e6e6e6;
+}
+p {
+  margin-top: 0;
+  font-size: 1rem;
+  color: #c5c5c5;
+}
+
+/*  HOME IMAGEM */
+.home-foto img {
+  width: 200px;
+  height: 200px;
+  border-radius: 20rem;
+  object-fit: cover;
+
+  border: 1px solid rgb(37, 37, 37);
+  box-shadow: 0px 0px 20px rgba(32, 32, 32, 0.253);
+
+  animation: move 1s ease-in-out infinite alternate;
+}
+
+/*  ANIMACAO IMAGEM */
+@keyframes move {
+    from {
+        transform: translateY(0);
+    } to {
+        transform: translateY(5px);
+    }
+}
+
+/* BOTAO "GET IN TOUCH" "DOWNLOAND CV" ESTILO */
+.home-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+/*  FALE COMIGO */
+.btn:nth-of-type(1) {
+  width: 190px;
+  height: 55px;
+
+  border-radius: 50px;
+  border: 1px solid #8b8888;
+  background-color: #e6e6e6;
+  color: black;
+  font-size: 17px;
+  font-weight: 700;
+
+  margin-right: 0.5rem;
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+/*  DOWNLOAND CV */
+.btn:nth-of-type(2) {
+  width: 190px;
+  height: 55px;
+
+  border-radius: 50px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+
+  margin-left: 0.5rem;
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+
+.btn:nth-of-type(1):hover {
+  cursor: pointer;
+  background-color: #c5c5c5;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.062);
+  transition: 0.3s;
+}
+
+.btn:nth-of-type(2):hover {
+  cursor: pointer;
+  background-color: #c5c5c521;
+  box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.062);
+  transition: 0.3s;
+}

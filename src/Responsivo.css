@@ -1,0 +1,468 @@
+@media (min-width: 100px) and (max-width: 768px) {
+  /*  ============== PAGINA HOME ========= */
+
+  .home-conteudo {
+    text-align: center;
+  }
+
+  .home-conteudo p {
+    width: 80%;
+    text-align: center;
+  }
+  /* LINKS MENU  */
+  .header-container {
+    justify-content: space-between;
+  }
+
+  .header-container .logo-container {
+    margin-left: 30px;
+  }
+  /* BOTAO MENU HAMBURGER */
+  button {
+    z-index: 99999;
+    display: flex;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: white;
+    margin-right: 50px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+
+  .menu-toll {
+    display: none;
+  }
+
+  /* UL CONTEUDO E LINKS HOME */
+  ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    top: 10%;
+    right: 7%;
+    background-color: #222222;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 4rem;
+    width: 20px;
+    animation: menu 0.5s normal;
+  }
+
+  ul li {
+    margin-top: 10px;
+  }
+
+  .ul-none {
+    display: none;
+  }
+
+  @keyframes menu {
+    from {
+      transform: translateY(-200px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  .header-container .ul-links {
+    width: 30%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid red;
+  }
+
+  /*  PROJSTOS CONTAINERS */
+  .projects {
+    width: 70%;
+  }
+
+  .project-img {
+    width: 120px;
+  }
+
+  .header-container .logo {
+    width: 90px;
+  }
+
+  /* FALE COMIGO */
+  .EnterContact {
+    position: absolute;
+    bottom: 10%;
+    width: 90%;
+    display: flex;
+    height: auto;
+    align-items: cente;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cntt {
+    width: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .cntt h4 {
+    margin-top: 0px;
+  }
+
+  .cntt img {
+    width: 30px;
+    margin-right: 6px;
+  }
+
+  /* PROJECTS STYLES */
+  /* CONTAINER PROJECTS */
+
+  .projects h3,
+  .projects p {
+    font-size: 15px;
+    margin: 0;
+    margin-left: 10px;
+  }
+
+  .project-container {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* CONTAINER PROJECTS */
+  .container-block {
+    width: 50%;
+    height: auto;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* PROJETOS */
+  .projects {
+    min-width: 290px;
+    min-height: 301px;
+
+    width: 290px;
+    height: 324px;
+    border: 1px solid rgb(65, 65, 65);
+    margin: 0.5rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  /* FOTOS PROJECTS */
+  .project-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+      circle,
+      rgba(77, 77, 77, 1) 0%,
+      rgb(49, 124, 158) 100%
+    );
+
+    width: 100%;
+    height: 235px;
+    background-position: center;
+  }
+
+  .project-img img {
+    width: 60%;
+    animation: animado 3s ease-in-out infinite alternate;
+  }
+
+  /* ANIMACAO IMG DE PROJECT-IMG */
+  @keyframes animado {
+    from {
+      transform: translateY(-10px);
+    }
+    to {
+      transform: translateY(6px);
+    }
+  }
+
+  /* INFO PROJECTS */
+  .project-info {
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #55555596;
+    width: 300px;
+    height: 99px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .project-info .info {
+    width: 70%;
+    height: 60px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* botao info */
+  .btn-info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-info a,
+  img {
+    margin-top: 0.4rem;
+    width: 40px;
+  }
+
+  .btn-info img:hover {
+    scale: 1.5;
+    transition: all 0.3s;
+  }
+
+  /* PROJECT TITLE */
+  .h2 {
+    background-image: linear-gradient(to bottom, #ff8660, #d5491d);
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  /* STYLE PAGE HOME */
+  .header-container {
+    width: 100%;
+    height: 10vh;
+  }
+
+  .header-container .header-links-container {
+    margin: 0;
+    width: 100%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-container .header-links-container .logo-container {
+    margin-right: 00px;
+  }
+
+  .home-conteudo p {
+    width: 40%;
+    text-align: center;
+  }
+
+  ul {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vh;
+  }
+
+  .header-container .ul {
+    /* width: 10%; */
+    height: 10vh;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+  }
+
+  .header-container .logo {
+    width: 90px;
+  }
+
+  ul li {
+    margin-right: 100%;
+  }
+
+  /* STYLE PAGE CONTACTS */
+
+  /* FALE COMIGO */
+  .EnterContact {
+    position: absolute;
+    bottom: 50px;
+    width: 90%;
+    margin-top: 40px;
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .cntt {
+    width: 300px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+  }
+
+  .cntt h4 {
+    margin-top: 6px;
+  }
+
+  .cntt img {
+    width: 30px;
+    margin-right: 6px;
+  }
+
+  /* BOTAO FALE COMIGO */
+  .navigation-buttons button {
+    display: flex;
+  }
+
+  /*  PROJECTS PAGE */
+
+  h3,
+  p {
+    margin: 0;
+    margin-left: 10px;
+    font-size: 15px;
+  }
+
+  h3 {
+    margin-bottom: 20px;
+  }
+
+  .project-container {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  /* CONTAINER PROJECTS */
+  .container-block {
+    width: 80%;
+    height: auto;
+    margin: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  /* PROJETOS */
+  .projects {
+    min-width: 40px;
+    min-height: 340px;
+
+    width: 390px;
+    height: 340px;
+    border: 1px solid rgb(65, 65, 65);
+    margin: 0.5rem;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  /* FOTOS PROJECTS */
+  .project-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(
+      circle,
+      rgba(77, 77, 77, 1) 0%,
+      rgb(49, 124, 158) 100%
+    );
+
+    width: 100%;
+    height: 235px;
+    background-position: center;
+  }
+
+  .project-img img {
+    width: 60%;
+    animation: animado 3s ease-in-out infinite alternate;
+  }
+
+  /* ANIMACAO IMG DE PROJECT-IMG */
+  @keyframes animado {
+    from {
+      transform: translateY(-10px);
+    }
+    to {
+      transform: translateY(6px);
+    }
+  }
+
+  /* INFO PROJECTS */
+  .project-info {
+    position: relative;
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #55555596;
+    width: 390px;
+    height: 120px;
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .project-info .info {
+    width: 130%;
+    height: 60px;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* botao info */
+  .btn-info {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn-info a,
+  img {
+    margin-top: 0.4rem;
+    width: 40px;
+  }
+
+  .btn-info img:hover {
+    scale: 1.5;
+    transition: all 0.3s;
+  }
+
+  /* PROJECT TITLE */
+  .h2 {
+    background-image: linear-gradient(to bottom, #ff8660, #d5491d);
+    background-clip: text;
+    color: transparent;
+    font-weight: 800;
+  }
+}
