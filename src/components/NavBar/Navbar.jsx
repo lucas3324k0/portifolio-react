@@ -40,6 +40,11 @@ const Navbar = () => {
               </Link>
             </li>
             <li>
+              <Link className="a-link" to={"/SobreMim"}>
+              Sobre mim
+              </Link>
+            </li>
+            <li>
               <Link className="a-link" to={"/contact"}>
                 Contato
               </Link>

@@ -1,0 +1,12 @@
+.sobre-mim-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #ffffff;
+}
+
+.sobre-mim-container h2 {
+  margin-bottom: 20px;
+}

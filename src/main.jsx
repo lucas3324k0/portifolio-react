@@ -10,6 +10,7 @@ import Project from "./routes/Project/Project.jsx";
 import Contact from "./routes/Contacts/Contact.jsx";
 import GetinTouch from "./components/FaleComigo/GetinTouch.jsx";
 import FormContact from "./components/form/FormContact.jsx";
+import SobreMim from "./routes/SobreMim/SobreMim.jsx";
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
         path: '/FormContact',
         element: <FormContact />
       },
+      {
+        path: '/SobreMim',
+        element: <SobreMim />
+      }
     ],
   },
 ]);

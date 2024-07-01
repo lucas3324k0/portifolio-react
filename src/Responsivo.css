@@ -248,6 +248,15 @@
     color: transparent;
     font-weight: 800;
   }
+
+  /* sobre mim */
+  .sobre-mim-container p {
+    width: 90%;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
 }
 
 @media (min-width: 768px) and (max-width: 1366px) {
@@ -464,5 +473,13 @@
     background-clip: text;
     color: transparent;
     font-weight: 800;
+  }
+
+  /* SOBRE MIM */
+  .sobre-mim-container p {
+    width: 50%;
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
   }
 }
