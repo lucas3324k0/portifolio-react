@@ -1,6 +1,5 @@
 @media (min-width: 100px) and (max-width: 768px) {
-  /*  ============== PAGINA HOME ========= */
-
+  /* PAGINA HOME */
   ul {
     margin-right: 20px;
     display: flex;
@@ -17,7 +16,7 @@
     width: 80%;
     text-align: center;
   }
-  /* LINKS MENU  */
+
   .header-container {
     justify-content: space-between;
   }
@@ -25,6 +24,7 @@
   .header-container .logo-container {
     margin-left: 30px;
   }
+
   .header-container .a-link {
     width: 100%;
     display: flex;
@@ -33,8 +33,7 @@
     color: rgb(255, 255, 255);
     font-weight: 400;
   }
-  
-  /* BOTAO MENU HAMBURGER */
+
   button {
     z-index: 99999;
     display: flex;
@@ -99,7 +98,7 @@
     border: 1px solid red;
   }
 
-  /*  PROJSTOS CONTAINERS */
+  /* PROJETOS CONTAINERS */
   .projects {
     width: 70%;
   }
@@ -119,7 +118,7 @@
     width: 90%;
     display: flex;
     height: auto;
-    align-items: cente;
+    align-items: center;
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -140,8 +139,6 @@
   }
 
   /* PROJECTS STYLES */
-  /* CONTAINER PROJECTS */
-
   .projects h3,
   .projects p {
     font-size: 15px;
@@ -153,30 +150,25 @@
     width: 100%;
     height: auto;
     padding-top: 20px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
 
-  /* CONTAINER PROJECTS */
   .container-block {
     width: 50%;
     height: auto;
     margin: 1rem;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }
 
-  /* PROJETOS */
   .projects {
     min-width: 290px;
     min-height: 301px;
-
     width: 290px;
     height: 324px;
     border: 1px solid rgb(65, 65, 65);
@@ -185,17 +177,11 @@
     overflow: hidden;
   }
 
-  /* FOTOS PROJECTS */
   .project-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(
-      circle,
-      rgba(77, 77, 77, 1) 0%,
-      rgb(49, 124, 158) 100%
-    );
-
+    background: radial-gradient(circle, rgba(77, 77, 77, 1) 0%, rgb(49, 124, 158) 100%);
     width: 100%;
     height: 235px;
     background-position: center;
@@ -206,7 +192,6 @@
     animation: animado 3s ease-in-out infinite alternate;
   }
 
-  /* ANIMACAO IMG DE PROJECT-IMG */
   @keyframes animado {
     from {
       transform: translateY(-10px);
@@ -216,14 +201,12 @@
     }
   }
 
-  /* INFO PROJECTS */
   .project-info {
     position: relative;
     z-index: 9999;
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: #55555596;
     width: 300px;
     height: 99px;
@@ -234,12 +217,10 @@
     width: 70%;
     height: 60px;
     text-align: left;
-
     display: flex;
     flex-direction: column;
   }
 
-  /* botao info */
   .btn-info {
     width: 50%;
     display: flex;
@@ -258,7 +239,6 @@
     transition: all 0.3s;
   }
 
-  /* PROJECT TITLE */
   .h2 {
     background-image: linear-gradient(to bottom, #ff8660, #d5491d);
     background-clip: text;
@@ -266,18 +246,15 @@
     font-weight: 800;
   }
 
-  /* sobre mim */
   .sobre-mim-container p {
     width: 90%;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 15px;
   }
-  
 }
 
 @media (min-width: 768px) and (max-width: 1366px) {
-  /* STYLE PAGE HOME */
   .header-container {
     width: 100%;
     height: 10vh;
@@ -287,14 +264,13 @@
     margin: 0;
     width: 100%;
     height: 10vh;
-
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
 
   .header-container .header-links-container .logo-container {
-    margin-right: 00px;
+    margin-right: 0;
   }
 
   .home-conteudo p {
@@ -333,9 +309,6 @@
     margin-right: 100%;
   }
 
-  /* STYLE PAGE CONTACTS */
-
-  /* FALE COMIGO */
   .EnterContact {
     position: absolute;
     bottom: 50px;
@@ -364,12 +337,9 @@
     margin-right: 6px;
   }
 
-  /* BOTAO FALE COMIGO */
   .navigation-buttons button {
     display: flex;
   }
-
-  /*  PROJECTS PAGE */
 
   h3,
   p {
@@ -386,30 +356,25 @@
     width: 100%;
     height: auto;
     padding-top: 20px;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
 
-  /* CONTAINER PROJECTS */
   .container-block {
     width: 80%;
     height: auto;
     margin: 1rem;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
   }
 
-  /* PROJETOS */
   .projects {
     min-width: 40px;
     min-height: 340px;
-
     width: 390px;
     height: 340px;
     border: 1px solid rgb(65, 65, 65);
@@ -418,17 +383,11 @@
     overflow: hidden;
   }
 
-  /* FOTOS PROJECTS */
   .project-img {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: radial-gradient(
-      circle,
-      rgba(77, 77, 77, 1) 0%,
-      rgb(49, 124, 158) 100%
-    );
-
+    background: radial-gradient(circle, rgba(77, 77, 77, 1) 0%, rgb(49, 124, 158) 100%);
     width: 100%;
     height: 235px;
     background-position: center;
@@ -439,7 +398,6 @@
     animation: animado 3s ease-in-out infinite alternate;
   }
 
-  /* ANIMACAO IMG DE PROJECT-IMG */
   @keyframes animado {
     from {
       transform: translateY(-10px);
@@ -449,14 +407,12 @@
     }
   }
 
-  /* INFO PROJECTS */
   .project-info {
     position: relative;
     z-index: 9999;
     display: flex;
     justify-content: center;
     align-items: center;
-
     background-color: #55555596;
     width: 390px;
     height: 120px;
@@ -467,12 +423,10 @@
     width: 130%;
     height: 60px;
     text-align: left;
-
     display: flex;
     flex-direction: column;
   }
 
-  /* botao info */
   .btn-info {
     width: 50%;
     display: flex;
@@ -491,7 +445,6 @@
     transition: all 0.3s;
   }
 
-  /* PROJECT TITLE */
   .h2 {
     background-image: linear-gradient(to bottom, #ff8660, #d5491d);
     background-clip: text;
@@ -499,7 +452,6 @@
     font-weight: 800;
   }
 
-  /* SOBRE MIM */
   .sobre-mim-container p {
     width: 50%;
     font-size: 1rem;
