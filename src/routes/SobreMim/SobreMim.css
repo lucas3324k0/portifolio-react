@@ -1,4 +1,10 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
 .sobre-mim-container {
+  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,5 +14,32 @@
 }
 
 .sobre-mim-container h2 {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
+
+.sobre-mim-tecnologias {
+  width: 50%;
+  height: auto;
+}
+
+.sobre-mim-icons {
+  color: white;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center; 
+}
+
+.linguagens-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.linguagens-container  .i {
+  width: 40px;
+}
+
