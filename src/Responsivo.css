@@ -1,6 +1,14 @@
 @media (min-width: 100px) and (max-width: 768px) {
   /*  ============== PAGINA HOME ========= */
 
+  ul {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90vh;
+  }
+
   .home-conteudo {
     text-align: center;
   }
@@ -17,6 +25,15 @@
   .header-container .logo-container {
     margin-left: 30px;
   }
+  .header-container .a-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+  }
+  
   /* BOTAO MENU HAMBURGER */
   button {
     z-index: 99999;
@@ -48,7 +65,7 @@
     flex-direction: column;
     gap: 5px;
     top: 10%;
-    right: 7%;
+    right: 10%;
     background-color: #222222;
     border-radius: 0 0 10px 10px;
     padding-bottom: 4rem;
@@ -286,18 +303,25 @@
   }
 
   ul {
-    margin-right: 20px;
+    margin-right: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 90vh;
   }
 
+  .header-container .a-link {
+    width: 190%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+  }
+
   .header-container .ul {
-    /* width: 10%; */
     height: 10vh;
     display: flex;
-    /* justify-content: space-evenly; */
     align-items: center;
   }
 
