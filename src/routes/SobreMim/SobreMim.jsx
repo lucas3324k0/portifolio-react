@@ -18,7 +18,7 @@ const SobreMim = () => {
     <div className="sobre-mim-container">
       <h2>Sobre Mim</h2>
       <p>
-        Olá! Meu nome é [Seu Nome], sou apaixonado por tecnologia e estou
+        Olá! Meu nome é Lucas, Tenho 17 anos e sou apaixonado por tecnologia e estou
         trilhando o caminho para me tornar um desenvolvedor full stack, com foco
         inicial no front-end.
       </p>
