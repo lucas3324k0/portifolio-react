@@ -71,9 +71,17 @@ const Project = () => {
                         Linguagem mais ultilizada:{" "}
                         <strong>{item.language}</strong>
                       </p>
-                      <p>{item.id}</p>
-
-                      <hr />
+                      {/* <p>{item.id}</p> */}
+                      <div
+                        style={{
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: 'center',
+                          height: "300px",
+                        }}
+                      >
+                        <h1>Em andamento...</h1>
+                      </div>
                       <h4>
                         Link para acesso{" "}
                         {item.html_url ? (
