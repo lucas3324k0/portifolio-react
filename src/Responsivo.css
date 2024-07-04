@@ -1,11 +1,19 @@
 @media (min-width: 100px) and (max-width: 768px) {
   /* PAGINA HOME */
   ul {
-    margin-right: 20px;
+    margin-right: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90vh;
+    width: 23vh !important;
+  }
+
+  ul li {
+    margin-left: 160px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .home-conteudo {
@@ -13,7 +21,8 @@
   }
 
   .home-conteudo p {
-    width: 80%;
+    border: 1px;
+    width: 80% !important;
     text-align: center;
   }
 
@@ -54,7 +63,6 @@
 
   /* UL CONTEUDO E LINKS HOME */
   ul {
-
     margin: 0;
     padding: 0;
     position: absolute;
@@ -249,7 +257,8 @@
   }
 
   .sobre-mim-container p {
-    width: 90%;
+    width: 90% !important;
+    text-align: center;
     font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 15px;
@@ -462,4 +471,11 @@ img {
   font-size: 1rem;
   line-height: 1.6;
   margin-bottom: 15px;
+}
+
+/* fale cmg */
+.container p {
+  text-align: center;
+  width: 60%;
+  margin-top: 15px;
 }

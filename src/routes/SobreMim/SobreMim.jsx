@@ -39,7 +39,7 @@ const SobreMim = () => {
         profissional. Estou animado para contribuir com projetos inovadores e
         fazer parte de uma equipe dinâmica.
       </p>
-      <hr />
+      <br />
       <div className="sobre-mim-tecnologias">
         <h3>Linguagens e Tecnologias:</h3>
         <div className="linguagens-container">

@@ -1,5 +1,5 @@
-import './GetInTouch.css'
-import '../../Responsivo.css'
+import "./GetInTouch.css";
+import "../../Responsivo.css";
 const GetinTouch = () => {
   return (
     <div className="container">
