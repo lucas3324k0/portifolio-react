@@ -41,7 +41,7 @@ const Navbar = () => {
             </li>
             <li>
               <Link className="a-link" to={"/SobreMim"}>
-              Sobre mim
+                Sobre mim
               </Link>
             </li>
             <li>
