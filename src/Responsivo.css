@@ -54,6 +54,7 @@
 
   /* UL CONTEUDO E LINKS HOME */
   ul {
+
     margin: 0;
     padding: 0;
     position: absolute;
@@ -113,11 +114,8 @@
 
   /* FALE COMIGO */
   .EnterContact {
-    position: absolute;
-    bottom: 10%;
     width: 90%;
     display: flex;
-    height: auto;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
