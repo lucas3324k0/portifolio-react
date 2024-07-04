@@ -2,8 +2,8 @@ import logo from "../../assets/logo/image.png";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 import "../../Responsivo.css";
-import { useReducer } from "react";
 import MenuIcon from "@mui/icons-material/Menu";
+import { useReducer } from "react";
 
 const Navbar = () => {
   const reducer = (state, action) => {

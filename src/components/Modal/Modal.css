@@ -1,0 +1,91 @@
+/* Estilo para o fundo do modal */
+.ModalBackground {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(39, 39, 39, 0.685);
+  z-index: 999; /* Valor alto, mas não excessivo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo para o conteúdo do modal */
+.ModalConteudoContainer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: slide-down 0.3s ease-out;
+  z-index: 1000; /* Valor alto, mas não excessivo */
+}
+
+.ModalConteudo {
+  height: 40vh;
+  background-color: #494949;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  animation: slide-down 0.3s ease-out;
+  z-index: 1001; /* Valor alto, mas não excessivo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Animação para o modal aparecer de cima */
+@keyframes slide-down {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Estilo para o título do modal */
+.ModalTitulo {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Estilo para o corpo do modal */
+.ModalCorpo {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Estilo para o container dos botões */
+.ModalBotoes {
+  display: flex;
+  justify-content: end;
+}
+
+/* Estilo para os botões do modal */
+.ModalBotao {
+  display: flex;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ModalBotaoCancelar:hover {
+  color: white;
+  background-color: #4d4d4d;
+}
