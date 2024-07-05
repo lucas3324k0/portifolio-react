@@ -19,6 +19,7 @@
   padding: 20px;
   border-radius: 8px;
   width: 90%;
+  height: auto;
   max-width: 500px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   animation: slide-down 0.3s ease-out;
@@ -27,6 +28,7 @@
 
 .ModalConteudo {
   height: 40vh;
+  height: auto;
   background-color: #494949;
   color: white;
   padding: 20px;
@@ -42,6 +44,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 
 /* Animação para o modal aparecer de cima */
 @keyframes slide-down {

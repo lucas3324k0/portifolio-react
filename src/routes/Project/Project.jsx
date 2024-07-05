@@ -73,9 +73,16 @@ const Project = () => {
                       </p>
                       {/* <p>{item.id}</p> */}
                       <div
-                      
+                        style={{
+                          width: "80%",
+                          padding: "1rem",
+                          textAlign: "center",
+                          borderRadius: '10px',
+                          border: '1px solid gray',
+                          marginBottom: '1rem'
+                        }}
                       >
-                        <h1>Em andamento...</h1>
+                        <p>{item.description}</p>
                       </div>
                       <h4>
                         Link para acesso
