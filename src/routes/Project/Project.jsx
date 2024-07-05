@@ -53,7 +53,6 @@ const Project = () => {
                     <h3>{item.name}</h3>
                   </div>
                   <div className="btn-info">
-                    {/* <a target="_blank" href={`${item.html_url}`}> */}
                     <a onClick={() => handleOpenModal(index)}>
                       <img
                         className="img-info"
@@ -71,7 +70,6 @@ const Project = () => {
                         Linguagem mais ultilizada:{" "}
                         <strong>{item.language}</strong>
                       </p>
-                      {/* <p>{item.id}</p> */}
                       <div
                         style={{
                           width: "80%",
