@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 const URL = "https://api.github.com/users/lucas3324k0/repos";
 
 const UseDadosGithub = () => {

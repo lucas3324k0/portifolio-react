@@ -1,4 +1,4 @@
-import React, { createContext } from "react";
+import { createContext } from "react";
 import UseDadosGithub from "../../hooks/UseDadosGithub";
 
 export const MeuContexto = createContext(null);

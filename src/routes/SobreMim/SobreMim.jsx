@@ -5,14 +5,6 @@ import { FiLinkedin, FiGithub } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
 import BottonTop from "../../components/buttonTop/BottonTop";
 
-// icons
-import HtmlIcon from "@mui/icons-material/Html";
-import { SiCsswizardry } from "react-icons/si";
-import { TiHtml5 } from "react-icons/ti";
-import { RiJavascriptFill } from "react-icons/ri";
-import { FaReact } from "react-icons/fa6";
-import { SiSqlite } from "react-icons/si";
-
 const SobreMim = () => {
   return (
     <div className="sobre-mim-container">
